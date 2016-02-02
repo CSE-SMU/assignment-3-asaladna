@@ -1,5 +1,3 @@
-/* insert changes to variables here */
-/* refer to bootstrap-4.0.0-alpha/scss/variables to see what you can override */
 /*!
  * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -318,7 +316,7 @@ html {
 
 /* line 69, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_reboot.scss */
 body {
-  font-family: "Roboto";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -2205,26 +2203,26 @@ fieldset[disabled] a.btn {
 /* line 59, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: pink;
-  border-color: pink; }
+  background-color: #0275d8;
+  border-color: #0275d8; }
   /* line 10, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_hover.scss */
   .btn-primary:hover {
     color: #fff;
-    background-color: #ff8da1;
-    border-color: #ff8398; }
+    background-color: #025aa5;
+    border-color: #01549b; }
   /* line 22, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
   .btn-primary:focus,
   .btn-primary.focus {
     color: #fff;
-    background-color: #ff8da1;
-    border-color: #ff8398; }
+    background-color: #025aa5;
+    border-color: #01549b; }
   /* line 30, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
   .btn-primary:active,
   .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #ff8da1;
-    border-color: #ff8398;
+    background-color: #025aa5;
+    border-color: #01549b;
     background-image: none; }
     /* line 40, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
     .btn-primary:active:hover,
@@ -2237,20 +2235,20 @@ fieldset[disabled] a.btn {
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus {
       color: #fff;
-      background-color: #ff6983;
-      border-color: #ff4162; }
+      background-color: #014682;
+      border-color: #01315a; }
   /* line 50, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
   .btn-primary.disabled:focus,
   .btn-primary.disabled.focus,
   .btn-primary:disabled:focus,
   .btn-primary:disabled.focus {
-    background-color: pink;
-    border-color: pink; }
+    background-color: #0275d8;
+    border-color: #0275d8; }
   /* line 10, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_hover.scss */
   .btn-primary.disabled:hover,
   .btn-primary:disabled:hover {
-    background-color: pink;
-    border-color: pink; }
+    background-color: #0275d8;
+    border-color: #0275d8; }
 
 /* line 62, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_buttons.scss */
 .btn-secondary {
@@ -2504,10 +2502,10 @@ fieldset[disabled] a.btn {
 
 /* line 79, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_buttons.scss */
 .btn-primary-outline {
-  color: pink;
+  color: #0275d8;
   background-image: none;
   background-color: transparent;
-  border-color: pink; }
+  border-color: #0275d8; }
   /* line 71, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
   .btn-primary-outline:focus,
   .btn-primary-outline.focus,
@@ -2515,23 +2513,23 @@ fieldset[disabled] a.btn {
   .btn-primary-outline.active,
   .open > .btn-primary-outline.dropdown-toggle {
     color: #fff;
-    background-color: pink;
-    border-color: pink; }
+    background-color: #0275d8;
+    border-color: #0275d8; }
   /* line 10, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_hover.scss */
   .btn-primary-outline:hover {
     color: #fff;
-    background-color: pink;
-    border-color: pink; }
+    background-color: #0275d8;
+    border-color: #0275d8; }
   /* line 85, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_buttons.scss */
   .btn-primary-outline.disabled:focus,
   .btn-primary-outline.disabled.focus,
   .btn-primary-outline:disabled:focus,
   .btn-primary-outline:disabled.focus {
-    border-color: white; }
+    border-color: #43a7fd; }
   /* line 10, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_hover.scss */
   .btn-primary-outline.disabled:hover,
   .btn-primary-outline:disabled:hover {
-    border-color: white; }
+    border-color: #43a7fd; }
 
 /* line 82, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_buttons.scss */
 .btn-secondary-outline {
@@ -3806,7 +3804,7 @@ input[type="button"].btn-block {
 /* line 112, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_card.scss */
 .card-primary-outline {
   background-color: transparent;
-  border-color: pink; }
+  border-color: #0275d8; }
 
 /* line 115, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_card.scss */
 .card-secondary-outline {
@@ -4925,7 +4923,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Roboto";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5024,7 +5022,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Roboto";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5605,7 +5603,7 @@ a.text-danger:hover {
 
 /* line 12, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/_utilities-background.scss */
 .bg-faded {
-  background-color: purple; }
+  background-color: #f7f7f9; }
 
 /* line 3, /Users/alexsaladna/assignment-3-asaladna/bootstrap-4.0.0-alpha/scss/mixins/_background-variant.scss */
 .bg-primary {
@@ -5987,4 +5985,4 @@ a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
-/*# sourceMappingURL=custom-bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
