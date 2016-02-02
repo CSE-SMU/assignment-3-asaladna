@@ -1,4 +1,8 @@
 /* insert changes to variables here */
 /* refer to bootstrap-4.0.0-alpha/scss/variables to see what you can override */
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
 
 @import '../bootstrap-4.0.0-alpha/scss/bootstrap';
+
